@@ -32,7 +32,7 @@ syntax = "proto3";
 
 package google.protobuf.date;
 
-option go_package = "google.golang.org/protobuf/types/known/timestamppb";
+option go_package = "google.golang.org/protobuf/date";
 
 // A Timestamp represents a point in time independent of any time zone or local
 // calendar, encoded as a count of seconds and fractions of seconds at
