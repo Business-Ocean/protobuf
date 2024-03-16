@@ -30,7 +30,7 @@
 
 syntax = "proto3";
 
-package google.protobuf;
+package google.protobuf.any;
 
 option go_package = "google.golang.org/protobuf/any";
 
