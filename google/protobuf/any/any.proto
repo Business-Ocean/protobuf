@@ -32,7 +32,7 @@ syntax = "proto3";
 
 package google.protobuf;
 
-option go_package = "google.golang.org/protobuf";
+option go_package = "google.golang.org/protobuf/any:any";
 
 // `Any` contains an arbitrary serialized protocol buffer message along with a
 // URL that describes the type of the serialized message.
