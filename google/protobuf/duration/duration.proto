@@ -33,7 +33,7 @@ syntax = "proto3";
 package google.protobuf;
 
 option cc_enable_arenas = true;
-option go_package = "google.golang.org/protobuf/duration:duration";
+option go_package = "google.golang.org/protobuf/duration";
 
 // A Duration represents a signed, fixed-length span of time represented
 // as a count of seconds and fractions of seconds at nanosecond
